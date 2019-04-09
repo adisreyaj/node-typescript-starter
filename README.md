@@ -1,5 +1,7 @@
 # Typescript Node Starter Template
 
+![Node-Typescript-Starter](https://sreyaj.com/wp-content/uploads/2019/04/node-ts.jpg)
+
 Create a Node server using the most favoured language Typescript. Get started with this simple Node-Typescript boilerplate code. It has all the basic setup done including testing which is powered by Jest.
 
 The setup uses a highly scalable and maintainable folder structure so it fits for all the needs.

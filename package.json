@@ -5,8 +5,9 @@
   "main": "./dist/src/server.js",
   "scripts": {
     "watch-ts": "tsc -w",
-    "start": "tsc && node ",
+    "start": "node",
     "watch-node": "nodemon",
+    "watch-build": "concurrently \"npm run watch-ts\" \"npm run watch-node\"",
     "test": "jest --detectOpenHandles --runInBand",
     "test-coverage": "jest --forceExit --runInBand --coverage"
   },
@@ -23,6 +24,7 @@
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.18.3",
+    "concurrently": "^4.1.0",
     "express": "^4.16.4"
   },
   "devDependencies": {

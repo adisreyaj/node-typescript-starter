@@ -8,21 +8,12 @@
     "moduleResolution": "node",
     "sourceMap": true,
     "pretty": true,
-    "outDir": "./dist",
-    "baseUrl": "./src",
+    "outDir": "./dist/",
+    "baseUrl": "./",
     "paths": {
-      "*": [
-        "node_modules/*",
-        "src/types/*"
-      ]
+      "*": ["node_modules/*", "src/types/*"]
     }
   },
-  "include": [
-    "src/**/*.ts",
-    "test/**/*.ts"
-  ],
-  "exclude": [
-    "src/public",
-    "node_modules/"
-  ]
+  "include": ["src/**/*.ts"],
+  "exclude": ["src/public", "node_modules/", "test/**/*.ts"]
 }
